@@ -21,8 +21,8 @@ data/
   README.md                  how the TNG stack was built
 training/
   common.py                  encoder, augmentations and data loading shared by both arms
-  config_simclr.py, simclr_arm.py, run_simclr.sh   SimCLR: train, extract features, PCA
-  config_nnclr.py,  nnclr_arm.py,  run_nnclr.sh    NNCLR:  same
+  config_simclr.py, simclr_arm.py   SimCLR: train, extract features, PCA
+  config_nnclr.py,  nnclr_arm.py    NNCLR:  same
   encode_stack.py            apply a trained encoder to any image stack (Horizon-AGN, HSC)
 notebooks/
   results.ipynb              linear probes and transfer: Tables 4.1-4.7, Figure 4.1
